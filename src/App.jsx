@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 
+import logo from "./assets/logo.png";
+
 function App() {
   const [counter, setCounter] = useState(0);
 
@@ -11,8 +13,7 @@ function App() {
   return (
     <>
       <div>
-        <h1 className="center-text">Alexandru Chiricea</h1>
-        <h2 className="center-text">Personal trainer</h2>
+        <img className="logo" src={logo} alt="alex c"></img>
       </div>
 
       <div>
