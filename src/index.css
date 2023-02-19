@@ -8,4 +8,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /* vars */
+  --purple: #800080;
+  --yellow: #ffff00;
+
+  background-color: var(--purple);
+}
+h1,
+h2 {
+  color: var(--yellow);
 }
