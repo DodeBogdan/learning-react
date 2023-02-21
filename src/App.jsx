@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<UseStateList />}></Route>
           <Route path="birthdays" element={<Birthday />}></Route>
-          <Route path="chiricea_alexandru" element={<PTSite />}></Route>
+          <Route path="coach" element={<PTSite />}></Route>
         </Route>
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
