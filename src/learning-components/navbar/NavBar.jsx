@@ -8,10 +8,11 @@ const NavBar = () => {
     <div>
       <ul>
         {nav.map((data) => {
+          const { id, path, name } = data;
           return (
-            <li>
-              <Link to={data.path} className="navButtons">
-                {data.name}
+            <li key={id}>
+              <Link to={path} className="navButtons">
+                {name}
               </Link>
             </li>
           );

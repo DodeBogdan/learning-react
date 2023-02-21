@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--grey-900);
 }
 
 li {
@@ -20,5 +20,6 @@ li .navButtons {
 
 /* Change the link color to #111 (black) on hover */
 li .navButtons:hover {
-  background-color: #111;
+  background-color: #000000;
+  color: green;
 }
