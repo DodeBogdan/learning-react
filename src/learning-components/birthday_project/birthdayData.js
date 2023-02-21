@@ -1,4 +1,4 @@
-export const birthdays = [
+export const birthday = [
   { id: 1, date: "19 ianuarie", name: "Sebi" },
   { id: 2, date: "12 februarie", name: "Simo" },
   { id: 3, date: "19 martie", name: "Bianca" },
@@ -9,4 +9,4 @@ export const birthdays = [
   { id: 8, date: "23 noiembrie", name: "Nicusor" },
 ];
 
-export default birthdays;
+export default birthday;

@@ -1,20 +1,19 @@
 import React, { useEffect, useState } from "react";
 import "./Birthday.css";
-import birthdayList from "./birthdaysData";
+import birthdayList from "./birthdayData";
 
 const Birthday = () => {
-  const [birthdays, setBirthdays] = useState(birthdayList);
   const [currentPage, setCurrentPage] = useState(0);
   const maxPerPage = 3;
-  const numberOfPages = Math.ceil(birthdays.length / maxPerPage);
+  const numberOfPages = Math.ceil(birthdayList.length / maxPerPage);
 
   useEffect(() => {}, []);
 
   return (
-    <div className="birthday">
+    <div className="birthday body-component">
       <section className="panel">
         <h2>Happy birthdays</h2>
-        {birthdays
+        {birthdayList
           .slice(
             currentPage * maxPerPage,
             currentPage * maxPerPage + maxPerPage
@@ -28,7 +27,7 @@ const Birthday = () => {
               </div>
             );
           })}
-        <div>
+        <div className="mb mt pageStyle">
           Page:
           {[...Array(numberOfPages)].map((_, index) => {
             return (
@@ -44,9 +43,6 @@ const Birthday = () => {
             );
           })}
         </div>
-        <button type="button" className="btn mb mt">
-          Clear all
-        </button>
       </section>
     </div>
   );

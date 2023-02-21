@@ -100,3 +100,11 @@ body {
 .mt {
   margin-top: 8px;
 }
+
+.ml {
+  margin-left: 8px;
+}
+
+.body-component {
+  height: calc(100% - 100px);
+}

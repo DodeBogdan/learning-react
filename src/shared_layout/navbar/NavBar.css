@@ -4,6 +4,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: var(--grey-900);
+  height: 50px;
 }
 
 li {

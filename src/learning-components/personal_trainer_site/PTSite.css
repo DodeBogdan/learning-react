@@ -2,5 +2,4 @@
   background-image: url("./../../assets/background3.jpg");
   background-size: cover;
   position: relative;
-  height: calc(100% - 52px);
 }

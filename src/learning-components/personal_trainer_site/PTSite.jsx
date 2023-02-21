@@ -4,7 +4,7 @@ import "./PTSite.css";
 
 const PTSite = () => {
   return (
-    <div className="ptsite">
+    <div className="ptsite body-component">
       <img className="logo" src={logo} alt="alex c"></img>
     </div>
   );

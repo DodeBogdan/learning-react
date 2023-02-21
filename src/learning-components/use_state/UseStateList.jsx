@@ -20,7 +20,7 @@ const UseStateList = () => {
   };
 
   return (
-    <div className="centerDiv">
+    <div className="centerDiv body-component">
       {people.map((person) => {
         const { id, name } = person;
 
