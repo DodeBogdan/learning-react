@@ -3,4 +3,12 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  text-align: center;
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) {
+  .centerDiv {
+    gap: 1rem;
+  }
 }

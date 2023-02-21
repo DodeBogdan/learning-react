@@ -41,7 +41,7 @@ const UseStateList = () => {
         <h1>Name: {displayPerson.name}</h1>
         <h1>Age: {displayPerson.age}</h1>
         <h1>Goal: {displayPerson.goal}</h1>
-        <button className="btn" onClick={() => displayNewPerson()}>
+        <button className="btn mb" onClick={() => displayNewPerson()}>
           Display person
         </button>
       </div>

@@ -21,3 +21,19 @@
   display: flex;
   gap: 1rem;
 }
+
+@media screen and (max-device-height: 480px) and (orientation: landscape) {
+  .panel {
+    width: 75vw;
+    max-height: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .panel {
+    width: 75vw;
+    max-height: 100%;
+  }
+}
