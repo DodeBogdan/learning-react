@@ -9,8 +9,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  background: url("./assets/background3.jpg");
-  background-size: cover;
+  background-color: var(--grey-500);
 
   /* vars */
   --purple: #800080;
