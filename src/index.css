@@ -85,17 +85,6 @@
   background: var(--primary-700);
   box-shadow: var(--shadow-3);
 }
-.btn-hipster {
-  color: var(--primary-500);
-  background: var(--primary-200);
-}
-.btn-hipster:hover {
-  color: var(--primary-200);
-  background: var(--primary-700);
-}
-.btn-block {
-  width: 100%;
-}
 
 body {
   margin: 0px;
@@ -103,4 +92,11 @@ body {
 
 #root {
   height: 100vh;
+}
+.mb {
+  margin-bottom: 8px;
+}
+
+.mt {
+  margin-top: 8px;
 }

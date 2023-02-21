@@ -1,0 +1,19 @@
+.birthday {
+  background-color: #f28ab2;
+  height: calc(100% - 52px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  width: 50vw;
+  max-height: 50vw;
+  background-color: var(--grey-100);
+  box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.15),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
