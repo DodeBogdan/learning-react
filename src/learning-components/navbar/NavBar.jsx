@@ -1,19 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Birthday from "../birthday_project/Birthday";
+import "./NavBar.css";
+import nav from "./navbarData.js";
 
 const NavBar = () => {
   return (
     <div>
-      <Link to="/" className="btn">
-        Home
-      </Link>
-      <Link to="/birthday" className="btn">
-        Birthday
-      </Link>
-      <Link to="/chiricea_alexandru" className="btn">
-        Alex
-      </Link>
+      <ul>
+        {nav.map((data) => {
+          return (
+            <li>
+              <Link to={data.path} className="navButtons">
+                {data.name}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 };
