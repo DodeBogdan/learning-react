@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import SharedLayout from "./shared_layout/SharedLayout";
 import Birthday from "./learning-components/birthday_project/Birthday";
 import PTSite from "./learning-components/personal_trainer_site/PTSite";
+import Tours from "./learning-components/tours/Tours";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<UseStateList />}></Route>
           <Route path="birthday" element={<Birthday />}></Route>
           <Route path="coach" element={<PTSite />}></Route>
+          <Route path="tours" element={<Tours />}></Route>
         </Route>
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

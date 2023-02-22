@@ -1,0 +1,51 @@
+.tour {
+  background: white;
+  margin: 1rem;
+  position: relative;
+  border-radius: 3%;
+  box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.15),
+    0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.img-resp {
+  width: 100%;
+  height: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  object-fit: cover;
+}
+
+.tour-info {
+  justify-content: center;
+  padding: 1rem;
+}
+
+.read-more-or-less {
+  background: none !important;
+  border: none;
+  padding-left: 5px;
+  color: #069;
+  cursor: pointer;
+}
+
+.price {
+  background: lightblue;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 4rem;
+  text-align: center;
+}
+
+.not-interested {
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  color: red;
+  font-size: 14px;
+  transform: translateX(25%);
+  border-radius: 5px;
+  border-color: red;
+}

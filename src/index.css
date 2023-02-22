@@ -109,4 +109,12 @@ body {
 
 .body-component {
   min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+}
+
+.body-restrict {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
 }

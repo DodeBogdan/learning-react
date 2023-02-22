@@ -11,6 +11,11 @@ li {
   float: left;
 }
 
+.active {
+  background-color: pink;
+  color: black;
+}
+
 li .navButtons {
   display: block;
   color: white;
@@ -22,5 +27,4 @@ li .navButtons {
 /* Change the link color to #111 (black) on hover */
 li .navButtons:hover {
   background-color: #000000;
-  color: green;
 }

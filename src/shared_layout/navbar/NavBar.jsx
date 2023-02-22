@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import nav from "./navbarData.js";
 
@@ -10,9 +10,14 @@ const NavBar = () => {
         const { id, path, name } = data;
         return (
           <li key={id}>
-            <Link to={path} className="navButtons">
+            <NavLink
+              to={path}
+              className={({ isActive }) =>
+                isActive ? "active navButtons" : "navButtons"
+              }
+            >
               {name}
-            </Link>
+            </NavLink>
           </li>
         );
       })}
