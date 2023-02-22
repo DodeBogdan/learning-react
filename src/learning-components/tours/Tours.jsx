@@ -65,7 +65,7 @@ const Tours = () => {
     <div className="body-component body-restrict">
       <div className="title">
         {tourList.length != 0 ? (
-          <h1>Our Tours</h1>
+          <h1>Our Tours </h1>
         ) : (
           <div>
             <h1>No Tours</h1>{" "}
