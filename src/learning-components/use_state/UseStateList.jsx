@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./UseStateList.css";
 import { data } from "./data";
+import axios from "axios";
 
 const UseStateList = () => {
   const [people, setPeople] = useState(data);
