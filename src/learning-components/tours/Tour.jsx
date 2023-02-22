@@ -24,9 +24,11 @@ const Tour = ({ tour, removeTour }) => {
             {!fullText ? "read more" : "   show less"}
           </button>
         </p>
-        <button className="not-interested" onClick={() => removeTour(id)}>
-          Not interested
-        </button>
+        <div className="center">
+          <button className="not-interested" onClick={() => removeTour(id)}>
+            Not interested
+          </button>
+        </div>
       </div>
     </div>
   );

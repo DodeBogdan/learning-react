@@ -16,7 +16,6 @@
 }
 
 .tour-info {
-  justify-content: center;
   padding: 1rem;
 }
 
@@ -45,7 +44,10 @@
   text-align: center;
   color: red;
   font-size: 14px;
-  transform: translateX(25%);
   border-radius: 5px;
   border-color: red;
+}
+
+.center {
+  text-align: center;
 }
