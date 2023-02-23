@@ -6,6 +6,7 @@ import SharedLayout from "./shared_layout/SharedLayout";
 import Birthday from "./learning-components/birthday_project/Birthday";
 import PTSite from "./learning-components/personal_trainer_site/PTSite";
 import Tours from "./learning-components/tours/Tours";
+import Review from "./learning-components/review_project/Review";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="birthday" element={<Birthday />}></Route>
           <Route path="coach" element={<PTSite />}></Route>
           <Route path="tours" element={<Tours />}></Route>
+          <Route path="review" element={<Review />}></Route>
         </Route>
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
